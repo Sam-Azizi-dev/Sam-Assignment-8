@@ -40,7 +40,7 @@ public class AsyncronizedFetching {
 		
 		// print counted numbers to console
 		int maxNumber = Collections.max(numberCounts.keySet());
-		for (int i = 1; i <= maxNumber; i++) {
+		for (int i = 0; i <= maxNumber; i++) {
 		    int count = numberCounts.getOrDefault(i, 0);
 		    System.out.println(i + "=" + count);
 		}
